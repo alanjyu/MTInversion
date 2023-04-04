@@ -1,1 +1,1 @@
-# Seismic Inversion
+# Moment Tensor Inversion 
