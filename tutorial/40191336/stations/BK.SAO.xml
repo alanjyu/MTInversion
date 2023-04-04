@@ -3,7 +3,7 @@
  <Sender>NCEDC</Sender>
  <Module>NCEDC WEB SERVICE: fdsnws-station | version: 1.2</Module>
  <ModuleURI>http://service.ncedc.org/fdsnws/station/1/query?net=BK&amp;sta=SAO&amp;cha=BHZ&amp;loc=00&amp;start=2019-07-16T20:10:01.000-07:00&amp;end=2019-07-16T20:16:01.000-07:00&amp;level=resp</ModuleURI>
- <Created>2023-04-03T22:27:32</Created>
+ <Created>2023-04-03T22:52:04</Created>
  <Network code="BK" startDate="1980-10-01T00:00:00" endDate="3000-01-01T00:00:00">
   <Description>Berkeley Digital Seismic Network (BDSN)</Description>
   <TotalNumberStations>165</TotalNumberStations>
