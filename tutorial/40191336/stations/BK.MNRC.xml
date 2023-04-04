@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><FDSNStationXML xmlns="http://www.fdsn.org/xml/station/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="1.2" xsi:schemaLocation="http://www.fdsn.org/xml/station/1 http://www.fdsn.org/xml/station/fdsn-station-1.2.xsd">
+<?xml version="1.0" encoding="UTF-8"?><FDSNStationXML xmlns="http://www.fdsn.org/xml/station/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="1.1" xsi:schemaLocation="http://www.fdsn.org/xml/station/1 http://www.fdsn.org/xml/station/fdsn-station-1.1.xsd">
  <Source>NCEDC</Source>
  <Sender>NCEDC</Sender>
- <Module>NCEDC WEB SERVICE: fdsnws-station | version: 1.2</Module>
+ <Module>NCEDC WEB SERVICE: fdsnws-station | version: 1.1</Module>
  <ModuleURI>http://service.ncedc.org/fdsnws/station/1/query?net=BK&amp;sta=MNRC&amp;cha=BHZ&amp;loc=00&amp;start=2019-07-16T20:10:01.000-07:00&amp;end=2019-07-16T20:16:01.000-07:00&amp;level=resp</ModuleURI>
- <Created>2023-04-03T22:51:58</Created>
+ <Created>2020-09-30T10:20:56</Created>
  <Network code="BK" startDate="1980-10-01T00:00:00" endDate="3000-01-01T00:00:00">
   <Description>Berkeley Digital Seismic Network (BDSN)</Description>
-  <TotalNumberStations>165</TotalNumberStations>
+  <TotalNumberStations>118</TotalNumberStations>
   <SelectedNumberStations>1</SelectedNumberStations>
   <Station code="MNRC" endDate="3000-01-01T00:00:00" startDate="2003-06-19T15:00:00">
    <Latitude>38.87874</Latitude>
@@ -32,7 +32,7 @@
      <Description>Amperes</Description>
     </CalibrationUnits>
     <Sensor>
-     <Description>STS-2</Description>
+     <Description>Streckeisen STS-2 VBB Tri-Axial Seismometer</Description>
     </Sensor>
     <Response>
      <InstrumentSensitivity>
@@ -50,14 +50,15 @@
      <Stage number="1">
       <PolesZeros>
        <InputUnits>
-        <Name>m/s</Name>
+        <Name>M/S</Name>
+        <Description>Velocity in Meters Per Second</Description>
        </InputUnits>
        <OutputUnits>
         <Name>V</Name>
         <Description>Volts</Description>
        </OutputUnits>
        <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
-       <NormalizationFactor>48624557.1011169</NormalizationFactor>
+       <NormalizationFactor>48624554.8355944</NormalizationFactor>
        <NormalizationFrequency>1</NormalizationFrequency>
        <Zero number="0">
         <Real>0</Real>
@@ -68,23 +69,23 @@
         <Imaginary>0</Imaginary>
        </Zero>
        <Pole number="0">
-        <Real>-.037023667</Real>
-        <Imaginary>.037024383</Imaginary>
+        <Real>-.0370236694225557</Real>
+        <Imaginary>.0370243795433454</Imaginary>
        </Pole>
        <Pole number="1">
-        <Real>-.037023667</Real>
-        <Imaginary>-.037024383</Imaginary>
+        <Real>-.0370236694225557</Real>
+        <Imaginary>-.0370243795433454</Imaginary>
        </Pole>
        <Pole number="2">
-        <Real>-118.752205</Real>
-        <Imaginary>423.4881</Imaginary>
+        <Real>-118.752202305694</Real>
+        <Imaginary>423.488088036605</Imaginary>
        </Pole>
        <Pole number="3">
-        <Real>-118.752205</Real>
-        <Imaginary>-423.4881</Imaginary>
+        <Real>-118.752202305694</Real>
+        <Imaginary>-423.488088036605</Imaginary>
        </Pole>
        <Pole number="4">
-        <Real>-251.32741</Real>
+        <Real>-251.327412287183</Real>
         <Imaginary>0</Imaginary>
        </Pole>
       </PolesZeros>
@@ -197,7 +198,7 @@
      <Description>Amperes</Description>
     </CalibrationUnits>
     <Sensor>
-     <Description>STS-2</Description>
+     <Description>Streckeisen STS-2 VBB Tri-Axial Seismometer</Description>
     </Sensor>
     <Response>
      <InstrumentSensitivity>
@@ -215,14 +216,15 @@
      <Stage number="1">
       <PolesZeros>
        <InputUnits>
-        <Name>m/s</Name>
+        <Name>M/S</Name>
+        <Description>Velocity in Meters Per Second</Description>
        </InputUnits>
        <OutputUnits>
         <Name>V</Name>
         <Description>Volts</Description>
        </OutputUnits>
        <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
-       <NormalizationFactor>48624557.1011169</NormalizationFactor>
+       <NormalizationFactor>48624554.8355944</NormalizationFactor>
        <NormalizationFrequency>1</NormalizationFrequency>
        <Zero number="0">
         <Real>0</Real>
@@ -233,23 +235,23 @@
         <Imaginary>0</Imaginary>
        </Zero>
        <Pole number="0">
-        <Real>-.037023667</Real>
-        <Imaginary>.037024383</Imaginary>
+        <Real>-.0370236694225557</Real>
+        <Imaginary>.0370243795433454</Imaginary>
        </Pole>
        <Pole number="1">
-        <Real>-.037023667</Real>
-        <Imaginary>-.037024383</Imaginary>
+        <Real>-.0370236694225557</Real>
+        <Imaginary>-.0370243795433454</Imaginary>
        </Pole>
        <Pole number="2">
-        <Real>-118.752205</Real>
-        <Imaginary>423.4881</Imaginary>
+        <Real>-118.752202305694</Real>
+        <Imaginary>423.488088036605</Imaginary>
        </Pole>
        <Pole number="3">
-        <Real>-118.752205</Real>
-        <Imaginary>-423.4881</Imaginary>
+        <Real>-118.752202305694</Real>
+        <Imaginary>-423.488088036605</Imaginary>
        </Pole>
        <Pole number="4">
-        <Real>-251.32741</Real>
+        <Real>-251.327412287183</Real>
         <Imaginary>0</Imaginary>
        </Pole>
       </PolesZeros>
@@ -362,7 +364,7 @@
      <Description>Amperes</Description>
     </CalibrationUnits>
     <Sensor>
-     <Description>STS-2</Description>
+     <Description>Streckeisen STS-2 VBB Tri-Axial Seismometer</Description>
     </Sensor>
     <Response>
      <InstrumentSensitivity>
@@ -380,14 +382,15 @@
      <Stage number="1">
       <PolesZeros>
        <InputUnits>
-        <Name>m/s</Name>
+        <Name>M/S</Name>
+        <Description>Velocity in Meters Per Second</Description>
        </InputUnits>
        <OutputUnits>
         <Name>V</Name>
         <Description>Volts</Description>
        </OutputUnits>
        <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
-       <NormalizationFactor>48624557.1011169</NormalizationFactor>
+       <NormalizationFactor>48624554.8355944</NormalizationFactor>
        <NormalizationFrequency>1</NormalizationFrequency>
        <Zero number="0">
         <Real>0</Real>
@@ -398,23 +401,23 @@
         <Imaginary>0</Imaginary>
        </Zero>
        <Pole number="0">
-        <Real>-.037023667</Real>
-        <Imaginary>.037024383</Imaginary>
+        <Real>-.0370236694225557</Real>
+        <Imaginary>.0370243795433454</Imaginary>
        </Pole>
        <Pole number="1">
-        <Real>-.037023667</Real>
-        <Imaginary>-.037024383</Imaginary>
+        <Real>-.0370236694225557</Real>
+        <Imaginary>-.0370243795433454</Imaginary>
        </Pole>
        <Pole number="2">
-        <Real>-118.752205</Real>
-        <Imaginary>423.4881</Imaginary>
+        <Real>-118.752202305694</Real>
+        <Imaginary>423.488088036605</Imaginary>
        </Pole>
        <Pole number="3">
-        <Real>-118.752205</Real>
-        <Imaginary>-423.4881</Imaginary>
+        <Real>-118.752202305694</Real>
+        <Imaginary>-423.488088036605</Imaginary>
        </Pole>
        <Pole number="4">
-        <Real>-251.32741</Real>
+        <Real>-251.327412287183</Real>
         <Imaginary>0</Imaginary>
        </Pole>
       </PolesZeros>

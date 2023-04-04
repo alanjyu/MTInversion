@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?><FDSNStationXML xmlns="http://www.fdsn.org/xml/station/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="1.2" xsi:schemaLocation="http://www.fdsn.org/xml/station/1 http://www.fdsn.org/xml/station/fdsn-station-1.2.xsd">
+<?xml version="1.0" encoding="UTF-8"?><FDSNStationXML xmlns="http://www.fdsn.org/xml/station/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="1.1" xsi:schemaLocation="http://www.fdsn.org/xml/station/1 http://www.fdsn.org/xml/station/fdsn-station-1.1.xsd">
  <Source>NCEDC</Source>
  <Sender>NCEDC</Sender>
- <Module>NCEDC WEB SERVICE: fdsnws-station | version: 1.2</Module>
+ <Module>NCEDC WEB SERVICE: fdsnws-station | version: 1.1</Module>
  <ModuleURI>http://service.ncedc.org/fdsnws/station/1/query?net=BK&amp;sta=FARB&amp;cha=BHZ&amp;loc=00&amp;start=2019-07-16T20:10:01.000-07:00&amp;end=2019-07-16T20:16:01.000-07:00&amp;level=resp</ModuleURI>
- <Created>2023-04-03T22:51:58</Created>
+ <Created>2020-09-30T10:20:56</Created>
  <Network code="BK" startDate="1980-10-01T00:00:00" endDate="3000-01-01T00:00:00">
   <Description>Berkeley Digital Seismic Network (BDSN)</Description>
-  <TotalNumberStations>165</TotalNumberStations>
+  <TotalNumberStations>118</TotalNumberStations>
   <SelectedNumberStations>1</SelectedNumberStations>
   <Station code="FARB" endDate="3000-01-01T00:00:00" startDate="1997-03-15T00:00:00">
-   <Latitude>37.697819</Latitude>
-   <Longitude>-123.001099</Longitude>
+   <Latitude>37.69782</Latitude>
+   <Longitude>-123.0011</Longitude>
    <Elevation>-18.5</Elevation>
    <Site>
     <Name>Farallon Islands, CA, USA</Name>
    </Site>
    <CreationDate>1997-03-15T00:00:00</CreationDate>
    <Channel code="BHE" endDate="3000-01-01T00:00:00" locationCode="00" startDate="2010-04-07T18:00:00">
-    <Latitude>37.697819</Latitude>
-    <Longitude>-123.001099</Longitude>
+    <Latitude>37.69782</Latitude>
+    <Longitude>-123.0011</Longitude>
     <Elevation>-18.5</Elevation>
     <Depth>0.0</Depth>
     <Azimuth>90.0</Azimuth>
@@ -32,11 +32,11 @@
      <Description>Amperes</Description>
     </CalibrationUnits>
     <Sensor>
-     <Description>STS-2,Velocity Sensor,STRECKEISEN</Description>
+     <Description>Streckeisen STS-2 VBB Tri-Axial Seismometer</Description>
     </Sensor>
     <Response>
      <InstrumentSensitivity>
-      <Value>2.55282E9</Value>
+      <Value>2.55282118656E9</Value>
       <Frequency>1.0</Frequency>
       <InputUnits>
        <Name>M/S</Name>
@@ -58,22 +58,22 @@
         <Description>Volts</Description>
        </OutputUnits>
        <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
-       <NormalizationFactor>10032400000000000000</NormalizationFactor>
+       <NormalizationFactor>10032376219048300000</NormalizationFactor>
        <NormalizationFrequency>1</NormalizationFrequency>
        <Zero number="0">
-        <Real>-461.814</Real>
-        <Imaginary>429.079</Imaginary>
+        <Real>-461.81412</Real>
+        <Imaginary>429.078725</Imaginary>
        </Zero>
        <Zero number="1">
-        <Real>-461.814</Real>
-        <Imaginary>-429.079</Imaginary>
+        <Real>-461.81412</Real>
+        <Imaginary>-429.078725</Imaginary>
        </Zero>
        <Zero number="2">
-        <Real>-209.628</Real>
+        <Real>-209.628006</Real>
         <Imaginary>0</Imaginary>
        </Zero>
        <Zero number="3">
-        <Real>-15.1488</Real>
+        <Real>-15.14876</Real>
         <Imaginary>0</Imaginary>
        </Zero>
        <Zero number="4">
@@ -85,39 +85,39 @@
         <Imaginary>0</Imaginary>
        </Zero>
        <Pole number="0">
-        <Real>-10239.7</Real>
-        <Imaginary>2725.02</Imaginary>
+        <Real>-10239.707095</Real>
+        <Imaginary>2725.017468</Imaginary>
        </Pole>
        <Pole number="1">
-        <Real>-10239.7</Real>
-        <Imaginary>-2725.02</Imaginary>
+        <Real>-10239.707095</Real>
+        <Imaginary>-2725.017468</Imaginary>
        </Pole>
        <Pole number="2">
-        <Real>-9512.74</Real>
-        <Imaginary>11470</Imaginary>
+        <Real>-9512.742555</Real>
+        <Imaginary>11469.954778</Imaginary>
        </Pole>
        <Pole number="3">
-        <Real>-9512.74</Real>
-        <Imaginary>-11470</Imaginary>
+        <Real>-9512.742555</Real>
+        <Imaginary>-11469.954778</Imaginary>
        </Pole>
        <Pole number="4">
-        <Real>-454.526</Real>
+        <Real>-454.525625</Real>
         <Imaginary>0</Imaginary>
        </Pole>
        <Pole number="5">
-        <Real>-438.608</Real>
+        <Real>-438.608222</Real>
         <Imaginary>0</Imaginary>
        </Pole>
        <Pole number="6">
-        <Real>-88.6139</Real>
-        <Imaginary>-397.516</Imaginary>
+        <Real>-88.613857</Real>
+        <Imaginary>-397.51619</Imaginary>
        </Pole>
        <Pole number="7">
-        <Real>-88.6139</Real>
-        <Imaginary>397.516</Imaginary>
+        <Real>-88.613857</Real>
+        <Imaginary>397.51619</Imaginary>
        </Pole>
        <Pole number="8">
-        <Real>-15.4001</Real>
+        <Real>-15.400087</Real>
         <Imaginary>0</Imaginary>
        </Pole>
        <Pole number="9">
@@ -154,8 +154,8 @@
        <Correction>0.0</Correction>
       </Decimation>
       <StageGain>
-       <Value>1677720</Value>
-       <Frequency>0</Frequency>
+       <Value>1677721.6</Value>
+       <Frequency>1</Frequency>
       </StageGain>
      </Stage>
      <Stage number="3">
@@ -213,8 +213,8 @@
        <InputSampleRate>40.0</InputSampleRate>
        <Factor>1</Factor>
        <Offset>0</Offset>
-       <Delay>0.43046</Delay>
-       <Correction>0.43046</Correction>
+       <Delay>0.430462</Delay>
+       <Correction>0.430462</Correction>
       </Decimation>
       <StageGain>
        <Value>1</Value>
@@ -223,8 +223,8 @@
      </Stage>
     </Response>
    </Channel><Channel code="BHN" endDate="3000-01-01T00:00:00" locationCode="00" startDate="2010-04-07T18:00:00">
-    <Latitude>37.697819</Latitude>
-    <Longitude>-123.001099</Longitude>
+    <Latitude>37.69782</Latitude>
+    <Longitude>-123.0011</Longitude>
     <Elevation>-18.5</Elevation>
     <Depth>0.0</Depth>
     <Azimuth>0.0</Azimuth>
@@ -238,11 +238,11 @@
      <Description>Amperes</Description>
     </CalibrationUnits>
     <Sensor>
-     <Description>STS-2,Velocity Sensor,STRECKEISEN</Description>
+     <Description>Streckeisen STS-2 VBB Tri-Axial Seismometer</Description>
     </Sensor>
     <Response>
      <InstrumentSensitivity>
-      <Value>2.54863E9</Value>
+      <Value>2.54862688256E9</Value>
       <Frequency>1.0</Frequency>
       <InputUnits>
        <Name>M/S</Name>
@@ -264,22 +264,22 @@
         <Description>Volts</Description>
        </OutputUnits>
        <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
-       <NormalizationFactor>10033500000000000000</NormalizationFactor>
+       <NormalizationFactor>10033525913091400000</NormalizationFactor>
        <NormalizationFrequency>1</NormalizationFrequency>
        <Zero number="0">
-        <Real>-461.814</Real>
-        <Imaginary>429.079</Imaginary>
+        <Real>-461.81412</Real>
+        <Imaginary>429.078725</Imaginary>
        </Zero>
        <Zero number="1">
-        <Real>-461.814</Real>
-        <Imaginary>-429.079</Imaginary>
+        <Real>-461.81412</Real>
+        <Imaginary>-429.078725</Imaginary>
        </Zero>
        <Zero number="2">
-        <Real>-208.288</Real>
+        <Real>-208.287593</Real>
         <Imaginary>0</Imaginary>
        </Zero>
        <Zero number="3">
-        <Real>-15.1488</Real>
+        <Real>-15.14876</Real>
         <Imaginary>0</Imaginary>
        </Zero>
        <Zero number="4">
@@ -291,39 +291,39 @@
         <Imaginary>0</Imaginary>
        </Zero>
        <Pole number="0">
-        <Real>-10239.7</Real>
-        <Imaginary>2725.02</Imaginary>
+        <Real>-10239.707095</Real>
+        <Imaginary>2725.017468</Imaginary>
        </Pole>
        <Pole number="1">
-        <Real>-10239.7</Real>
-        <Imaginary>-2725.02</Imaginary>
+        <Real>-10239.707095</Real>
+        <Imaginary>-2725.017468</Imaginary>
        </Pole>
        <Pole number="2">
-        <Real>-9512.74</Real>
-        <Imaginary>11470</Imaginary>
+        <Real>-9512.742555</Real>
+        <Imaginary>11469.954778</Imaginary>
        </Pole>
        <Pole number="3">
-        <Real>-9512.74</Real>
-        <Imaginary>-11470</Imaginary>
+        <Real>-9512.742555</Real>
+        <Imaginary>-11469.954778</Imaginary>
        </Pole>
        <Pole number="4">
-        <Real>-454.526</Real>
+        <Real>-454.525625</Real>
         <Imaginary>0</Imaginary>
        </Pole>
        <Pole number="5">
-        <Real>-435.079</Real>
+        <Real>-435.079167</Real>
         <Imaginary>0</Imaginary>
        </Pole>
        <Pole number="6">
-        <Real>-89.0642</Real>
-        <Imaginary>-397.569</Imaginary>
+        <Real>-89.064152</Real>
+        <Imaginary>-397.56855</Imaginary>
        </Pole>
        <Pole number="7">
-        <Real>-89.0642</Real>
-        <Imaginary>397.569</Imaginary>
+        <Real>-89.064152</Real>
+        <Imaginary>397.56855</Imaginary>
        </Pole>
        <Pole number="8">
-        <Real>-15.4189</Real>
+        <Real>-15.418937</Real>
         <Imaginary>0</Imaginary>
        </Pole>
        <Pole number="9">
@@ -360,8 +360,8 @@
        <Correction>0.0</Correction>
       </Decimation>
       <StageGain>
-       <Value>1677720</Value>
-       <Frequency>0</Frequency>
+       <Value>1677721.6</Value>
+       <Frequency>1</Frequency>
       </StageGain>
      </Stage>
      <Stage number="3">
@@ -419,8 +419,8 @@
        <InputSampleRate>40.0</InputSampleRate>
        <Factor>1</Factor>
        <Offset>0</Offset>
-       <Delay>0.43046</Delay>
-       <Correction>0.43046</Correction>
+       <Delay>0.430462</Delay>
+       <Correction>0.430462</Correction>
       </Decimation>
       <StageGain>
        <Value>1</Value>
@@ -429,8 +429,8 @@
      </Stage>
     </Response>
    </Channel><Channel code="BHZ" endDate="3000-01-01T00:00:00" locationCode="00" startDate="2010-04-07T18:00:00">
-    <Latitude>37.697819</Latitude>
-    <Longitude>-123.001099</Longitude>
+    <Latitude>37.69782</Latitude>
+    <Longitude>-123.0011</Longitude>
     <Elevation>-18.5</Elevation>
     <Depth>0.0</Depth>
     <Azimuth>0.0</Azimuth>
@@ -444,11 +444,11 @@
      <Description>Amperes</Description>
     </CalibrationUnits>
     <Sensor>
-     <Description>STS-2,Velocity Sensor,STRECKEISEN</Description>
+     <Description>Streckeisen STS-2 VBB Tri-Axial Seismometer</Description>
     </Sensor>
     <Response>
      <InstrumentSensitivity>
-      <Value>2.55718E9</Value>
+      <Value>2.55718326272E9</Value>
       <Frequency>1.0</Frequency>
       <InputUnits>
        <Name>M/S</Name>
@@ -470,22 +470,22 @@
         <Description>Volts</Description>
        </OutputUnits>
        <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
-       <NormalizationFactor>10031000000000000000</NormalizationFactor>
+       <NormalizationFactor>10030997561684200000</NormalizationFactor>
        <NormalizationFrequency>1</NormalizationFrequency>
        <Zero number="0">
-        <Real>-461.814</Real>
-        <Imaginary>429.079</Imaginary>
+        <Real>-461.81412</Real>
+        <Imaginary>429.078725</Imaginary>
        </Zero>
        <Zero number="1">
-        <Real>-461.814</Real>
-        <Imaginary>-429.079</Imaginary>
+        <Real>-461.81412</Real>
+        <Imaginary>-429.078725</Imaginary>
        </Zero>
        <Zero number="2">
-        <Real>-210.968</Real>
+        <Real>-210.968419</Real>
         <Imaginary>0</Imaginary>
        </Zero>
        <Zero number="3">
-        <Real>-15.1488</Real>
+        <Real>-15.14876</Real>
         <Imaginary>0</Imaginary>
        </Zero>
        <Zero number="4">
@@ -497,39 +497,39 @@
         <Imaginary>0</Imaginary>
        </Zero>
        <Pole number="0">
-        <Real>-10239.7</Real>
-        <Imaginary>2725.02</Imaginary>
+        <Real>-10239.707095</Real>
+        <Imaginary>2725.017468</Imaginary>
        </Pole>
        <Pole number="1">
-        <Real>-10239.7</Real>
-        <Imaginary>-2725.02</Imaginary>
+        <Real>-10239.707095</Real>
+        <Imaginary>-2725.017468</Imaginary>
        </Pole>
        <Pole number="2">
-        <Real>-9512.74</Real>
-        <Imaginary>11470</Imaginary>
+        <Real>-9512.742555</Real>
+        <Imaginary>11469.954778</Imaginary>
        </Pole>
        <Pole number="3">
-        <Real>-9512.74</Real>
-        <Imaginary>-11470</Imaginary>
+        <Real>-9512.742555</Real>
+        <Imaginary>-11469.954778</Imaginary>
        </Pole>
        <Pole number="4">
-        <Real>-454.526</Real>
+        <Real>-454.525625</Real>
         <Imaginary>0</Imaginary>
        </Pole>
        <Pole number="5">
-        <Real>-442.137</Real>
+        <Real>-442.137278</Real>
         <Imaginary>0</Imaginary>
        </Pole>
        <Pole number="6">
-        <Real>-88.1636</Real>
-        <Imaginary>-397.464</Imaginary>
+        <Real>-88.163562</Real>
+        <Imaginary>-397.463831</Imaginary>
        </Pole>
        <Pole number="7">
-        <Real>-88.1636</Real>
-        <Imaginary>397.464</Imaginary>
+        <Real>-88.163562</Real>
+        <Imaginary>397.463831</Imaginary>
        </Pole>
        <Pole number="8">
-        <Real>-15.3812</Real>
+        <Real>-15.381238</Real>
         <Imaginary>0</Imaginary>
        </Pole>
        <Pole number="9">
@@ -566,8 +566,8 @@
        <Correction>0.0</Correction>
       </Decimation>
       <StageGain>
-       <Value>1677720</Value>
-       <Frequency>0</Frequency>
+       <Value>1677721.6</Value>
+       <Frequency>1</Frequency>
       </StageGain>
      </Stage>
      <Stage number="3">
@@ -625,8 +625,8 @@
        <InputSampleRate>40.0</InputSampleRate>
        <Factor>1</Factor>
        <Offset>0</Offset>
-       <Delay>0.43046</Delay>
-       <Correction>0.43046</Correction>
+       <Delay>0.430462</Delay>
+       <Correction>0.430462</Correction>
       </Decimation>
       <StageGain>
        <Value>1</Value>

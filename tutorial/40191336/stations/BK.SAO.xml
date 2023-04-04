@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><FDSNStationXML xmlns="http://www.fdsn.org/xml/station/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="1.2" xsi:schemaLocation="http://www.fdsn.org/xml/station/1 http://www.fdsn.org/xml/station/fdsn-station-1.2.xsd">
+<?xml version="1.0" encoding="UTF-8"?><FDSNStationXML xmlns="http://www.fdsn.org/xml/station/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="1.1" xsi:schemaLocation="http://www.fdsn.org/xml/station/1 http://www.fdsn.org/xml/station/fdsn-station-1.1.xsd">
  <Source>NCEDC</Source>
  <Sender>NCEDC</Sender>
- <Module>NCEDC WEB SERVICE: fdsnws-station | version: 1.2</Module>
+ <Module>NCEDC WEB SERVICE: fdsnws-station | version: 1.1</Module>
  <ModuleURI>http://service.ncedc.org/fdsnws/station/1/query?net=BK&amp;sta=SAO&amp;cha=BHZ&amp;loc=00&amp;start=2019-07-16T20:10:01.000-07:00&amp;end=2019-07-16T20:16:01.000-07:00&amp;level=resp</ModuleURI>
- <Created>2023-04-03T22:52:04</Created>
+ <Created>2020-09-30T10:21:06</Created>
  <Network code="BK" startDate="1980-10-01T00:00:00" endDate="3000-01-01T00:00:00">
   <Description>Berkeley Digital Seismic Network (BDSN)</Description>
-  <TotalNumberStations>165</TotalNumberStations>
+  <TotalNumberStations>118</TotalNumberStations>
   <SelectedNumberStations>1</SelectedNumberStations>
   <Station code="SAO" endDate="3000-01-01T00:00:00" startDate="1988-01-28T00:00:00">
    <Latitude>36.76403</Latitude>

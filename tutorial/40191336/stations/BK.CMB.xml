@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?><FDSNStationXML xmlns="http://www.fdsn.org/xml/station/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="1.2" xsi:schemaLocation="http://www.fdsn.org/xml/station/1 http://www.fdsn.org/xml/station/fdsn-station-1.2.xsd">
+<?xml version="1.0" encoding="UTF-8"?><FDSNStationXML xmlns="http://www.fdsn.org/xml/station/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" schemaVersion="1.1" xsi:schemaLocation="http://www.fdsn.org/xml/station/1 http://www.fdsn.org/xml/station/fdsn-station-1.1.xsd">
  <Source>NCEDC</Source>
  <Sender>NCEDC</Sender>
- <Module>NCEDC WEB SERVICE: fdsnws-station | version: 1.2</Module>
+ <Module>NCEDC WEB SERVICE: fdsnws-station | version: 1.1</Module>
  <ModuleURI>http://service.ncedc.org/fdsnws/station/1/query?net=BK&amp;sta=CMB&amp;cha=BHZ&amp;loc=00&amp;start=2019-07-16T20:10:01.000-07:00&amp;end=2019-07-16T20:16:01.000-07:00&amp;level=resp</ModuleURI>
- <Created>2023-04-03T22:51:55</Created>
+ <Created>2020-09-30T10:20:52</Created>
  <Network code="BK" startDate="1980-10-01T00:00:00" endDate="3000-01-01T00:00:00">
   <Description>Berkeley Digital Seismic Network (BDSN)</Description>
-  <TotalNumberStations>165</TotalNumberStations>
+  <TotalNumberStations>118</TotalNumberStations>
   <SelectedNumberStations>1</SelectedNumberStations>
   <Station code="CMB" endDate="3000-01-01T00:00:00" startDate="1996-09-25T19:19:00">
    <Latitude>38.03455</Latitude>
-   <Longitude>-120.386513</Longitude>
+   <Longitude>-120.38651</Longitude>
    <Elevation>697.0</Elevation>
    <Site>
     <Name>Columbia College, Columbia, CA, USA</Name>
    </Site>
    <CreationDate>1986-10-25T00:00:00</CreationDate>
-   <Channel code="BHE" endDate="2022-02-03T21:00:00" locationCode="00" startDate="2010-12-17T00:00:00">
+   <Channel code="BHE" endDate="3000-01-01T00:00:00" locationCode="00" startDate="2010-12-17T00:00:00">
     <Latitude>38.03455</Latitude>
-    <Longitude>-120.386513</Longitude>
+    <Longitude>-120.38651</Longitude>
     <Elevation>697.0</Elevation>
     <Depth>2.0</Depth>
     <Azimuth>90.0</Azimuth>
@@ -32,11 +32,11 @@
      <Description>Amperes</Description>
     </CalibrationUnits>
     <Sensor>
-     <Description>STS-1 HORIZONTAL,Velocity Sensor,STRECKEISEN</Description>
+     <Description>Streckeisen STS-1/E300 VBB Feedback Horizontal Sei</Description>
     </Sensor>
     <Response>
      <InstrumentSensitivity>
-      <Value>4.34966E9</Value>
+      <Value>4.34966102016E9</Value>
       <Frequency>1.0</Frequency>
       <InputUnits>
        <Name>M/S</Name>
@@ -58,7 +58,7 @@
         <Description>Volts</Description>
        </OutputUnits>
        <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
-       <NormalizationFactor>6972.9</NormalizationFactor>
+       <NormalizationFactor>6972.89773701995</NormalizationFactor>
        <NormalizationFrequency>1</NormalizationFrequency>
        <Zero number="0">
         <Real>0</Real>
@@ -69,20 +69,20 @@
         <Imaginary>0</Imaginary>
        </Zero>
        <Pole number="0">
-        <Real>-.0123598</Real>
-        <Imaginary>.0119818</Imaginary>
+        <Real>-.0123598001385067</Real>
+        <Imaginary>.0119818295681211</Imaginary>
        </Pole>
        <Pole number="1">
-        <Real>-.0123598</Real>
-        <Imaginary>-.0119818</Imaginary>
+        <Real>-.0123598001385067</Real>
+        <Imaginary>-.0119818295681211</Imaginary>
        </Pole>
        <Pole number="2">
-        <Real>-35.5531</Real>
-        <Imaginary>75.7233</Imaginary>
+        <Real>-35.5530899014103</Real>
+        <Imaginary>75.7233424313978</Imaginary>
        </Pole>
        <Pole number="3">
-        <Real>-35.5531</Real>
-        <Imaginary>-75.7233</Imaginary>
+        <Real>-35.5530899014103</Real>
+        <Imaginary>-75.7233424313978</Imaginary>
        </Pole>
       </PolesZeros>
       <StageGain>
@@ -110,8 +110,8 @@
        <Correction>0.0</Correction>
       </Decimation>
       <StageGain>
-       <Value>1677720</Value>
-       <Frequency>0</Frequency>
+       <Value>1677721.6</Value>
+       <Frequency>1</Frequency>
       </StageGain>
      </Stage>
      <Stage number="3">
@@ -169,8 +169,8 @@
        <InputSampleRate>40.0</InputSampleRate>
        <Factor>1</Factor>
        <Offset>0</Offset>
-       <Delay>0.43046</Delay>
-       <Correction>0.43046</Correction>
+       <Delay>0.430462</Delay>
+       <Correction>0.430462</Correction>
       </Decimation>
       <StageGain>
        <Value>1</Value>
@@ -178,9 +178,9 @@
       </StageGain>
      </Stage>
     </Response>
-   </Channel><Channel code="BHN" endDate="2022-02-03T21:00:00" locationCode="00" startDate="2010-12-17T00:00:00">
+   </Channel><Channel code="BHN" endDate="3000-01-01T00:00:00" locationCode="00" startDate="2010-12-17T00:00:00">
     <Latitude>38.03455</Latitude>
-    <Longitude>-120.386513</Longitude>
+    <Longitude>-120.38651</Longitude>
     <Elevation>697.0</Elevation>
     <Depth>2.0</Depth>
     <Azimuth>0.0</Azimuth>
@@ -194,11 +194,11 @@
      <Description>Amperes</Description>
     </CalibrationUnits>
     <Sensor>
-     <Description>STS-1 HORIZONTAL,Velocity Sensor,STRECKEISEN</Description>
+     <Description>Streckeisen STS-1/E300 VBB Feedback Horizontal Sei</Description>
     </Sensor>
     <Response>
      <InstrumentSensitivity>
-      <Value>3.31182E9</Value>
+      <Value>3.3118224384E9</Value>
       <Frequency>1.0</Frequency>
       <InputUnits>
        <Name>M/S</Name>
@@ -220,7 +220,7 @@
         <Description>Volts</Description>
        </OutputUnits>
        <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
-       <NormalizationFactor>11532.2</NormalizationFactor>
+       <NormalizationFactor>11532.2052311868</NormalizationFactor>
        <NormalizationFrequency>1</NormalizationFrequency>
        <Zero number="0">
         <Real>0</Real>
@@ -231,20 +231,20 @@
         <Imaginary>0</Imaginary>
        </Zero>
        <Pole number="0">
-        <Real>-.0122775</Real>
-        <Imaginary>.0120393</Imaginary>
+        <Real>-.0122774885312705</Real>
+        <Imaginary>.0120392588112005</Imaginary>
        </Pole>
        <Pole number="1">
-        <Real>-.0122775</Real>
-        <Imaginary>-.0120393</Imaginary>
+        <Real>-.0122774885312705</Real>
+        <Imaginary>-.0120392588112005</Imaginary>
        </Pole>
        <Pole number="2">
-        <Real>-36.0227</Real>
-        <Imaginary>101.317</Imaginary>
+        <Real>-36.0226951712689</Real>
+        <Imaginary>101.317123569547</Imaginary>
        </Pole>
        <Pole number="3">
-        <Real>-36.0227</Real>
-        <Imaginary>-101.317</Imaginary>
+        <Real>-36.0226951712689</Real>
+        <Imaginary>-101.317123569547</Imaginary>
        </Pole>
       </PolesZeros>
       <StageGain>
@@ -272,8 +272,8 @@
        <Correction>0.0</Correction>
       </Decimation>
       <StageGain>
-       <Value>1677720</Value>
-       <Frequency>0</Frequency>
+       <Value>1677721.6</Value>
+       <Frequency>1</Frequency>
       </StageGain>
      </Stage>
      <Stage number="3">
@@ -331,8 +331,8 @@
        <InputSampleRate>40.0</InputSampleRate>
        <Factor>1</Factor>
        <Offset>0</Offset>
-       <Delay>0.43046</Delay>
-       <Correction>0.43046</Correction>
+       <Delay>0.430462</Delay>
+       <Correction>0.430462</Correction>
       </Decimation>
       <StageGain>
        <Value>1</Value>
@@ -340,9 +340,9 @@
       </StageGain>
      </Stage>
     </Response>
-   </Channel><Channel code="BHZ" endDate="2022-02-03T21:00:00" locationCode="00" startDate="2010-12-17T00:00:00">
+   </Channel><Channel code="BHZ" endDate="3000-01-01T00:00:00" locationCode="00" startDate="2010-12-17T00:00:00">
     <Latitude>38.03455</Latitude>
-    <Longitude>-120.386513</Longitude>
+    <Longitude>-120.38651</Longitude>
     <Elevation>697.0</Elevation>
     <Depth>2.0</Depth>
     <Azimuth>0.0</Azimuth>
@@ -356,11 +356,11 @@
      <Description>Amperes</Description>
     </CalibrationUnits>
     <Sensor>
-     <Description>STS-1 VERTICAL,Velocity Sensor,STRECKEISEN</Description>
+     <Description>Streckeisen STS-1/E300 VBB Feedback Vertical Seism</Description>
     </Sensor>
     <Response>
      <InstrumentSensitivity>
-      <Value>5.19624E9</Value>
+      <Value>5.19623933952E9</Value>
       <Frequency>1.0</Frequency>
       <InputUnits>
        <Name>M/S</Name>
@@ -382,7 +382,7 @@
         <Description>Volts</Description>
        </OutputUnits>
        <PzTransferFunctionType>LAPLACE (RADIANS/SECOND)</PzTransferFunctionType>
-       <NormalizationFactor>6558.2</NormalizationFactor>
+       <NormalizationFactor>6558.19670773748</NormalizationFactor>
        <NormalizationFrequency>1</NormalizationFrequency>
        <Zero number="0">
         <Real>0</Real>
@@ -393,20 +393,20 @@
         <Imaginary>0</Imaginary>
        </Zero>
        <Pole number="0">
-        <Real>-.0125595</Real>
-        <Imaginary>.0117241</Imaginary>
+        <Real>-.0125594981119723</Real>
+        <Imaginary>.0117241018326957</Imaginary>
        </Pole>
        <Pole number="1">
-        <Real>-.0125595</Real>
-        <Imaginary>-.0117241</Imaginary>
+        <Real>-.0125594981119723</Real>
+        <Imaginary>-.0117241018326957</Imaginary>
        </Pole>
        <Pole number="2">
-        <Real>-37.3973</Real>
-        <Imaginary>71.9879</Imaginary>
+        <Real>-37.397336735959</Real>
+        <Imaginary>71.987856131455</Imaginary>
        </Pole>
        <Pole number="3">
-        <Real>-37.3973</Real>
-        <Imaginary>-71.9879</Imaginary>
+        <Real>-37.397336735959</Real>
+        <Imaginary>-71.987856131455</Imaginary>
        </Pole>
       </PolesZeros>
       <StageGain>
@@ -434,8 +434,8 @@
        <Correction>0.0</Correction>
       </Decimation>
       <StageGain>
-       <Value>1677720</Value>
-       <Frequency>0</Frequency>
+       <Value>1677721.6</Value>
+       <Frequency>1</Frequency>
       </StageGain>
      </Stage>
      <Stage number="3">
@@ -493,8 +493,8 @@
        <InputSampleRate>40.0</InputSampleRate>
        <Factor>1</Factor>
        <Offset>0</Offset>
-       <Delay>0.43046</Delay>
-       <Correction>0.43046</Correction>
+       <Delay>0.430462</Delay>
+       <Correction>0.430462</Correction>
       </Decimation>
       <StageGain>
        <Value>1</Value>
